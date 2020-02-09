@@ -18,7 +18,8 @@ import com.example.cloud.util.UtilGraphe;
 
 
 @RestController
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="https://daarcloudfront.herokuapp.com/")
+//@CrossOrigin(origins="http://localhost:4200"
 public class Controller {
 
 	@Autowired
