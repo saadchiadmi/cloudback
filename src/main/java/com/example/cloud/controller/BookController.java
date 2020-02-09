@@ -24,7 +24,7 @@ import com.example.cloud.repository.ClosenessRepository;
 import com.example.cloud.repository.GrapheRepository;
 
 @RestController
-@CrossOrigin(origins="https://daarcloudfront.herokuapp.com/")
+@CrossOrigin(origins="*")
 //@CrossOrigin(origins="http://localhost:4200"
 public class BookController {
 	
